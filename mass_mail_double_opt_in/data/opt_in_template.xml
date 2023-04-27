@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record
+                id="mass_mail_double_opt_in.mass_mail_confirmation_template"
+                model="mail.template">
+            <field name="name">Opt-In Confirmation Email</field>
+            <field name="email_to">{{ object.contact_id.email }}</field>
+            <field name="subject">Confirm your subscription to our newsletter</field>
+            <field
+                    name="model_id"
+                    ref="mass_mailing.model_mailing_contact_subscription"/>
+            <field
+                    name="auto_delete"
+                    eval="True"/>
+            <field name="body_html"><![CDATA[
+                <p>Hello <t t-out="object.contact_id.name or ''">Subscriber</t>,</p>
+                <p>Thank you for subscribing to our newsletter! To confirm your subscription, please click <a t-att-href="object.opt_in_url">here</a></p>
+                <p>If you did not request this subscription, please ignore this email.</p>
+                <p>Thank you!</p>
+            ]]></field>
+        </record>
+    </data>
+</odoo>

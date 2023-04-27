@@ -1,0 +1,42 @@
+<odoo>
+    <data>
+        <record
+                model="ir.ui.view"
+                id="mailing_list_inherit_view">
+            <field name="name">mailing.list.form.double-opt-in</field>
+            <field name="model">mailing.list</field>
+            <field
+                    name="inherit_id"
+                    ref="mass_mailing.mailing_list_view_form"/>
+            <field
+                    name="arch"
+                    type="xml">
+                <xpath
+                        expr="//field[@name='active']"
+                        position="after">
+                    <field name="double_opt_in"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record
+                model="ir.ui.view"
+                id="mailing_list_tree_view_inherit">
+            <field name="name">mailing.list.tree.double-opt-in</field>
+            <field name="model">mailing.list</field>
+            <field
+                    name="inherit_id"
+                    ref="mass_mailing.mailing_list_view_tree"/>
+            <field
+                    name="arch"
+                    type="xml">
+                <xpath
+                        expr="//field[@name='name']"
+                        position="after">
+                    <field name="double_opt_in"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

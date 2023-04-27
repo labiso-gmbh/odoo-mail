@@ -1,0 +1,99 @@
+<odoo>
+    <record
+            id="subscribe_thanks"
+            model="website.page">
+        <field name="name">Mailing Subscription Successful</field>
+        <field name="type">qweb</field>
+        <field name="url">/mailing-subscribe-thank-you</field>
+        <field name="website_published">True</field>
+        <field name="website_indexed">False</field>
+
+        <field name="key">website.mailing_subscribe_thanks</field>
+        <field
+                name="arch"
+                type="xml">
+            <t
+                    name="Mailing Subscription Successful"
+                    t-name="subscribe_thanks">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <div class="oe_structure"/>
+                        <section
+                                class="s_text_block pt40 pb40 o_colored_level "
+                                data-snippet="s_text_block">
+                            <div class="container s_allow_columns">
+                                <div class="row">
+                                    <div class="col-lg-7 col-xl-6 mr-lg-auto">
+                                        <span class="d-block fa fa-4x fa-thumbs-up mx-auto rounded-circle bg-primary"/>
+                                        <br/>
+                                        <h1 class="text-center">Thank You!</h1>
+                                        <div
+                                                class="pb16 pt16 s_hr"
+                                                data-snippet="s_hr"
+                                                data-name="Separator">
+                                            <hr class="mx-auto border-top w-50 border-dark text-center"/>
+                                        </div>
+                                        <h5 class="text-center">
+                                            <span class="fa fa-check-circle"/>
+                                            <span>You are <b>subscribed</b> successfully.</span>
+                                        </h5>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record
+            id="subscribe_error"
+            model="website.page">
+        <field name="name">Mailing List Subscription Error</field>
+        <field name="type">qweb</field>
+        <field name="url">/mailing-subscribe-error</field>
+        <field name="website_published">True</field>
+        <field name="website_indexed">False</field>
+        <field name="key">website.mailing_subscribe_error</field>
+        <field
+                name="arch"
+                type="xml">
+            <t
+                    name="subscribe_error"
+                    t-call="website.layout">
+                <div id="wrap">
+                    <div class="oe_structure"/>
+                    <section
+                            class="s_text_block pt40 pb40 o_colored_level "
+                            data-snippet="s_text_block">
+                        <div class="container s_allow_columns">
+                            <div class="row">
+                                <div class="col-lg-7 col-xl-6 mr-lg-auto">
+                                    <span class="d-block fa fa-4x fa-exclamation-triangle mx-auto rounded-circle bg-danger"/>
+                                    <br/>
+                                    <h1 class="text-center">Error!</h1>
+                                    <div
+                                            class="pb16 pt16 s_hr"
+                                            data-snippet="s_hr"
+                                            data-name="Separator">
+                                        <hr class="mx-auto border-top w-50 border-dark text-center"/>
+                                    </div>
+                                    <h5 class="text-center">
+                                        <span class="fa fa-times-circle"/>
+                                        <span>There was an error subscribing to our mailing list.
+                                            Your Opt-In like might be invalid.</span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="oe_structure"/>
+                </div>
+            </t>
+        </field>
+    </record>
+
+</odoo>

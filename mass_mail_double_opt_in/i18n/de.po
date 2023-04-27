@@ -1,0 +1,130 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mass_mail_double_opt_in
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e-20230418\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-27 15:13+0000\n"
+"PO-Revision-Date: 2023-04-27 17:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: mass_mail_double_opt_in
+#: model:mail.template,body_html:mass_mail_double_opt_in.mass_mail_confirmation_template
+msgid ""
+"\n"
+"                <p>Hello <t t-out=\"object.contact_id.name or "
+"''\">Subscriber</t>,</p>\n"
+"                <p>Thank you for subscribing to our newsletter! To confirm "
+"your subscription, please click <a t-att-href=\"object.opt_in_url\">here</"
+"a></p>\n"
+"                <p>If you did not request this subscription, please ignore "
+"this email.</p>\n"
+"                <p>Thank you!</p>\n"
+"            "
+msgstr ""
+"\n"
+"<p>Hallo <t t-out=\"object.contact_id.name or ''\">Abonnent</t>,</p>\n"
+"<p>Vielen Dank für Ihr Abonnement unseres Newsletters! Um Ihr Abonnement zu "
+"bestätigen, klicken Sie bitte <a t-att-href=\"object.opt_in_url\">hier</a></"
+"p>\n"
+"<p>Wenn Sie dieses Abonnement nicht angefordert haben, ignorieren Sie bitte "
+"diese E-Mail.</p>\n"
+"<p>Vielen Dank!</p>"
+
+#. module: mass_mail_double_opt_in
+#: model_terms:ir.ui.view,arch_db:mass_mail_double_opt_in.subscribe_thanks_ir_ui_view
+msgid ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                            <span>You are <b>subscribed</b> "
+"successfully.</span>"
+msgstr ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"<span>Sie haben sich erfolgreich <b>angemeldet</b>.</span>"
+
+#. module: mass_mail_double_opt_in
+#: model_terms:ir.ui.view,arch_db:mass_mail_double_opt_in.subscribe_error_ir_ui_view
+msgid ""
+"<span class=\"fa fa-times-circle\"/>\n"
+"                                        <span>There was an error subscribing "
+"to our mailing list.\n"
+"                                            Your Opt-In like might be "
+"invalid.</span>"
+msgstr ""
+"<span class=\"fa fa-times-circle\"/>\n"
+"                                        <span>Es gab einen Fehler beim "
+"Abonnieren unserer Mailingliste.\n"
+"                                            Ihr Opt-In-Link könnte ungültig "
+"sein.</span>"
+
+#. module: mass_mail_double_opt_in
+#: model:mail.template,subject:mass_mail_double_opt_in.mass_mail_confirmation_template
+msgid "Confirm your subscription to our newsletter"
+msgstr "Bestätigen Sie Ihre Anmeldung zu unserem Newsletter"
+
+#. module: mass_mail_double_opt_in
+#: model:ir.model.fields,field_description:mass_mail_double_opt_in.field_mailing_list__double_opt_in
+msgid "Double Opt-In"
+msgstr "Double Opt-In"
+
+#. module: mass_mail_double_opt_in
+#: model_terms:ir.ui.view,arch_db:mass_mail_double_opt_in.subscribe_error_ir_ui_view
+msgid "Error!"
+msgstr "Fehler!"
+
+#. module: mass_mail_double_opt_in
+#: model:ir.model.fields,help:mass_mail_double_opt_in.field_mailing_list__double_opt_in
+msgid ""
+"If set, contacts will be added to the list only after they have confirmed "
+"their subscription"
+msgstr ""
+"Wenn aktiviert, werden Kontakte nur dann zur Liste hinzugefügt, nachdem sie "
+"ihre Anmeldung bestätigt haben"
+
+#. module: mass_mail_double_opt_in
+#: model:ir.model,name:mass_mail_double_opt_in.model_mailing_list
+msgid "Mailing List"
+msgstr "Mailing-Liste"
+
+#. module: mass_mail_double_opt_in
+#: model:ir.model,name:mass_mail_double_opt_in.model_mailing_contact_subscription
+msgid "Mass Mailing Subscription Information"
+msgstr "Abonnement-Informationen für Massen-E-Mail-Versand"
+
+#. module: mass_mail_double_opt_in
+#: model:mail.template,name:mass_mail_double_opt_in.mass_mail_confirmation_template
+msgid "Opt-In Confirmation Email"
+msgstr "Opt-In Bestätigungs-E-Mail"
+
+#. module: mass_mail_double_opt_in
+#: model:ir.model.fields,field_description:mass_mail_double_opt_in.field_mailing_contact_subscription__opt_in_token
+msgid "Opt-In Token"
+msgstr "Opt-In-Token"
+
+#. module: mass_mail_double_opt_in
+#: model:ir.model.fields,field_description:mass_mail_double_opt_in.field_mailing_contact_subscription__opt_in_url
+msgid "Opt-In URL"
+msgstr "Opt-In URL"
+
+#. module: mass_mail_double_opt_in
+#: model_terms:ir.ui.view,arch_db:mass_mail_double_opt_in.subscribe_thanks_ir_ui_view
+msgid "Thank You!"
+msgstr "Danke!"
+
+#. module: mass_mail_double_opt_in
+#: model:ir.model.fields,help:mass_mail_double_opt_in.field_mailing_contact_subscription__opt_in_token
+msgid "Token used to verify the opt-in of the contact."
+msgstr "Token zur Überprüfung der Einwilligung des Kontakts verwendet."
+
+#. module: mass_mail_double_opt_in
+#: model:ir.model.fields,help:mass_mail_double_opt_in.field_mailing_contact_subscription__opt_in_url
+msgid "URL used to verify the opt-in of the contact."
+msgstr "URL zur Überprüfung der Einwilligung des Kontakts."
