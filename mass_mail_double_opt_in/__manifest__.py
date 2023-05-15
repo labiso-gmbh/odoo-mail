@@ -12,7 +12,7 @@
         "views/mailing_list.xml",
         "data/opt_in_page.xml",
     ],
-    "application": True,
+    "application": False,
     "auto_install": False,
     "installable": True,
     "license": "LGPL-3",
