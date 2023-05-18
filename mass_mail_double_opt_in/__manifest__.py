@@ -1,6 +1,6 @@
 {
     "name": "Newsletter Double Opt-In",
-    "version": "16.0.1.0",
+    "version": "16.0.1.0.1",
     "author": "Labiso GmbH",
     "category": "Marketing",
     "summary": (

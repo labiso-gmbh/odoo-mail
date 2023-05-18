@@ -54,7 +54,7 @@ class MailingContactSubscription(models.Model):
         )
 
         # Send the mail using the template and the current contact subscription
-        template.send_mail(self.id)
+        template.with_user(1).send_mail(self.id)
 
     @api.model_create_multi
     def create(self, vals_list):
