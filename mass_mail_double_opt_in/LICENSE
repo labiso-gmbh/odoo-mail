@@ -1,0 +1,162 @@
+CUSTOM DEVELOPMENT LICENSE
+
+Copyright (c) Labiso GmbH. All rights reserved.
+
+This software module was developed by Labiso GmbH as a custom development
+for a specific customer. READ THIS LICENSE CAREFULLY BEFORE USING THIS SOFTWARE.
+
+================================================================================
+                              LICENSE AGREEMENT
+================================================================================
+
+1. DEFINITIONS
+
+   "Labiso" refers to Labiso GmbH, Von-Seckendorff-Platz 1, 97539 Wonfurt,
+   Germany (HRB 11100, Amtsgericht Bamberg).
+
+   "Software" refers to this Odoo module and all associated files, code,
+   documentation, and assets contained herein.
+
+   "Licensee" refers to the original customer for whom this custom development
+   was created under a specific development contract with Labiso.
+
+   "Affiliated Companies" refers to companies affiliated with the Licensee
+   within the meaning of Section 15 of the German Stock Corporation Act (AktG),
+   including parent companies, subsidiaries, and sister companies at any
+   hierarchical level.
+
+2. INTELLECTUAL PROPERTY
+
+   All copyrights, patents, trademarks, and other intellectual property rights
+   in and to this Software are and remain the exclusive property of Labiso GmbH.
+
+   This License grants usage rights only and does NOT transfer ownership of the
+   intellectual property to the Licensee.
+
+3. GRANT OF LICENSE
+
+   Labiso grants the Licensee a:
+
+   - NON-EXCLUSIVE
+   - PERPETUAL (unlimited in time)
+   - ROYALTY-FREE (after initial development payment)
+
+   right to use this Software, which persists even after termination of the
+   business relationship with Labiso.
+
+4. PERMITTED USES
+
+   The Licensee IS permitted to:
+
+   a) Use this Software for internal business operations;
+
+   b) Maintain, modify, and adapt this Software;
+
+   c) Create copies of this Software for backup and operational purposes;
+
+   d) Authorize third parties (e.g., other Odoo partners or developers) to
+      perform maintenance, modifications, and adaptations on behalf of the
+      Licensee;
+
+   e) Deploy this Software on any server of the Licensee's choosing,
+      including on-premise installations;
+
+   f) Allow Affiliated Companies (as defined in Section 1) to use this
+      Software under the same terms and conditions.
+
+5. RESTRICTIONS
+
+   The Licensee SHALL NOT:
+
+   a) Sell, transfer, or assign this Software or any rights therein to any
+      third party that is NOT an Affiliated Company;
+
+   b) Sublicense this Software to any third party that is NOT an Affiliated
+      Company;
+
+   c) Distribute, publish, or make this Software available to any third party
+      that is NOT an Affiliated Company;
+
+   d) Remove or alter any proprietary notices, labels, or marks on this
+      Software.
+
+6. NO EXCLUSIVITY
+
+   The Licensee acknowledges and agrees that:
+
+   a) Labiso retains the right to offer, license, and provide this Software
+      (or substantially similar software) to other customers;
+
+   b) The Licensee has no claim to exclusivity regarding this Software or any
+      components, concepts, or methodologies contained therein;
+
+   c) Labiso may incorporate concepts, techniques, and code patterns developed
+      for this Software into other products and services.
+
+7. CONSEQUENCES OF BREACH
+
+   a) If the Licensee sells, transfers, or sublicenses this Software to
+      non-affiliated third parties in violation of Section 5, the Licensee
+      shall be liable to pay a contractual penalty equal to the original
+      development contract value for each violation.
+
+   b) This contractual penalty is in addition to, and does not limit, any
+      further claims for damages that Labiso may pursue.
+
+   c) Labiso reserves the right to conduct audits to verify compliance with
+      this License.
+
+8. DISCLAIMER OF WARRANTIES
+
+   THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED. LABISO DISCLAIMS ALL WARRANTIES INCLUDING, BUT NOT LIMITED TO, THE
+   IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NON-INFRINGEMENT.
+
+   The Licensee is responsible for testing this Software thoroughly before
+   deploying it to production systems.
+
+9. LIMITATION OF LIABILITY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LABISO SHALL NOT BE
+   LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE
+   DAMAGES ARISING OUT OF OR RELATED TO THE USE OF THIS SOFTWARE.
+
+   The Licensee is solely responsible for maintaining adequate backups and
+   ensuring proper testing of any modifications made to this Software.
+
+10. GOVERNING LAW
+
+    This License shall be governed by and construed in accordance with the laws
+    of the Federal Republic of Germany. The exclusive place of jurisdiction for
+    all disputes arising from or in connection with this License is Wonfurt,
+    Germany (registered office of Labiso GmbH).
+
+11. ENTIRE AGREEMENT
+
+    This License, together with the original development contract and Labiso's
+    General Terms and Conditions (available at https://www.labiso.de),
+    constitutes the entire agreement between the parties concerning this
+    Software.
+
+================================================================================
+                              CONTACT INFORMATION
+================================================================================
+
+Labiso GmbH
+Von-Seckendorff-Platz 1
+97539 Wonfurt
+Germany
+
+Managing Directors: Laurence Labusch, Tabea Labusch
+Commercial Register: HRB 11100, Amtsgericht Bamberg
+VAT ID: DE370035498
+
+Email: info@labiso.de
+Phone: +49 9521 703 99 30
+Web: https://www.labiso.de
+
+================================================================================
+
+BY USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE,
+UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
